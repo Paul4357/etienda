@@ -9,6 +9,6 @@ const productoCtr = require("../controllers/productos");
 
 // Rutas que entregara el modulo producto
 router.get("/producto/listartodos", productoCtr.listarTodos);
-//...
+router.post("/producto/nuevo", productoCtr.nuevo);
 
 module.exports = router;
