@@ -1,7 +1,6 @@
 // Controlador para el manejo de los productos
 
 // Conectamos el controlador con su modelo correspondiente
-
 const { request } = require("express");
 let producto = require("../models/productos");
 const { param } = require("../routes/productos");
