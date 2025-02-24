@@ -9,9 +9,10 @@
 - Usaremos dos arquitecturas : Orientada a servicios (API REST) para la aplicacion
 - Internamente usaremos MVC (Tenga en cuenta que las vistas se reemplazan por rutas)
 
-1. Creamos las carpetas para el MVC 
-2. Instalamos los paquetes base : npm i nodemon express cors mongoose
+1. Creamos las carpetas para el MVC
+2. Instalamos los paquetes base : npm i nodemon express cors mongoose bcrypjs jsonwebtoken multer(imagenes)
 
-* Documentacion de Mongo
-- MongoDB : https://www.mongodb.com/docs/manual/reference/method/
-- Mongoose (Libreria que interactua entre node JS y MongoDB) : https://mongoosejs.com/docs/guide.html#methods
+- Documentacion de Mongo
+
+* MongoDB : https://www.mongodb.com/docs/manual/reference/method/
+* Mongoose (Libreria que interactua entre node JS y MongoDB) : https://mongoosejs.com/docs/guide.html#methods
